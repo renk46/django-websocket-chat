@@ -1,0 +1,3 @@
+[submodule "django_ws_app"]
+	path = django_ws_app
+	url = https://github.com/renk46/django_ws_app.git
