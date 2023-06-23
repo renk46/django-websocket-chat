@@ -17,6 +17,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework_simplejwt',
     'rest_framework',
+    'django_ws_app',
     'chat',
 ]
 
@@ -29,6 +30,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
 ROOT_URLCONF = 'api.urls'
 TEMPLATES = [
     {
@@ -45,6 +47,7 @@ TEMPLATES = [
         },
     },
 ]
+
 ASGI_APPLICATION = 'api.asgi.application'
 DATABASES = {
     'default': {
